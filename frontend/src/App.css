@@ -1,0 +1,47 @@
+.calculator-body {
+  max-width: 400px;
+  margin: auto;
+}
+
+.result {
+  height: 60px;
+  background-color: #bbb;
+  width: 100%;
+}
+
+.result p {
+  font-size: 40px;
+  margin: 5px;
+}
+
+.button {
+  display: block;
+  background-color: #bbb;
+}
+
+button {
+  width: 25%;
+  height: 60px;
+  font-size: 30px;
+}
+
+.display-result {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+table {
+  width: 50%;
+}
+
+th {
+  text-align: center;
+}
+td {
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: lightgray;
+}
